@@ -1,0 +1,74 @@
+/* CSS for the header */
+body{
+    background-color:#2D9596;/*navycolour*/
+    color: white;
+    padding-top: 50px;
+    padding-left:250px;
+    padding-right:250px;
+    padding-bottom:50px;
+
+}
+h1 {
+    /*color: #333;  Dark grey text color */
+    
+    font-size: 24px; /* Larger font size */
+    font-weight: bold; /* Bold font weight */
+}
+
+/* CSS for paragraphs */
+p {
+    /*color: #666; /* Medium grey text color */
+    font-size: 16px; /* Normal font size */
+    line-height: 1.5; /* 1.5 times the font size for line spacing */
+}
+
+/* CSS for links */
+a {
+    /*color: #00f; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* CSS for images */
+img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.About-Dept-container{
+    padding:20px;
+    width: 35%;
+   /* margin-right: 30px; */
+    float: right;
+}
+.Vision-container{
+    padding:20px;
+    width: 35%;
+   /* margin-right: 30px; */
+    float: right;
+
+}
+.Mission-container{
+    padding:20px;
+    width: 35%;
+   /* margin-right: 30px; */
+    float: right;
+
+}
+.PEO-container{
+    padding:20px;
+    width: 35%;
+   /* margin-right: 30px; */
+    float: right;
+}
+.PO-container{
+    padding:20px;
+    padding-top:70px;
+    width: 35%;
+   /* margin-right: 30px; */
+    float: right;   
+
+}
+.about-us-container{
+    
+    background-color:#265073;/*navycolour*/;
+    border: 100px solid#265073;
+}

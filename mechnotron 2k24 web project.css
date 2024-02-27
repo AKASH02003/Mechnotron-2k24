@@ -52,6 +52,21 @@
 .img1 {
     max-width: 50%;
     height: auto;
+    filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.7));
+    /* Adjust the glow color and size */
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
+        /* Adjust the glow color and size */
+    }
+
+    to {
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1));
+        /* Adjust the glow color and size */
+    }
 }
 
 #navItem1 {
@@ -89,6 +104,7 @@
     background-image: url("https://manavrachna.edu.in/wp-content/uploads/2023/08/Gears-Concept-Art.gif");
     height: 100vh;
     background-size: cover;
+
 }
 
 .banner-heading {
@@ -677,4 +693,162 @@
 .containereventfun .cardfun .facefun.face2fun .contentfun a:hover {
     background: white;
     color: #fff;
+}
+
+* {
+    font-family: Nunito, sans-serif;
+}
+
+.atag {
+    border-color: transparent;
+}
+
+.text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+}
+
+.responsive-cell-block {
+    min-height: 75px;
+}
+
+.responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
+
+.outer-container {
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgb(244, 252, 255);
+}
+
+.inner-container {
+    max-width: 1320px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: auto;
+
+    margin-left: auto;
+}
+
+.section-head-text {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #cced00;
+    margin: 0 0 10px 0;
+}
+
+.section-subhead-text {
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+    line-height: 35px;
+    max-width: 470px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-links {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #cced00;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.position {
+    font-size: 25px;
+    font-weight: 700;
+    color: #9aa5b1;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.team-img {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #9aa5b1;
+}
+
+.team-img1 {
+    width: 100%;
+    height: 340px;
+    border-style: solid;
+    border-radius: 70%;
+    border-width: 3px;
+    border-color: #9aa5b1;
+}
+
+.team-card-container {
+    width: 280px;
+    margin: 0 0 40px 0;
+}
+
+@media (max-width: 500px) {
+    .outer-container {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .section-head-text {
+        text-align: center;
+    }
+}
+
+
+
+
+.hrl {
+    width: 60px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.para3wd {
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.para4wd {
+    color: #cced00;
+    font-size: 8px;
+    font-weight: bold;
 }
